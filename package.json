@@ -1,0 +1,23 @@
+{
+  "name": "cruise-ship-backend",
+  "version": "1.0.0",
+  "description": "A backend for cruise ship management project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cruiship",
+    "express",
+    "firebase"
+  ],
+  "author": "Sachin Shivaji Doddamani",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.2"
+  }
+}
